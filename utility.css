@@ -1,0 +1,79 @@
+.border{
+    border: 0px solid rgb(255, 0, 0);
+    
+}
+.flex{
+    display: flex;
+}
+.justify-centre{
+    justify-content: center;
+}
+.items-centre{
+    align-items: center;
+}
+.bg-black{
+    background-color: rgb(28, 7, 32);
+    color: white;
+}
+.bg-grey{
+    background-color: #1d0533;
+    color: white;
+}
+.rounded{
+    border-radius: 7px;
+}  
+.m-1{
+    margin: 5px;
+}
+.p-1{
+padding: 5px;
+}
+.invert{
+    filter: invert(1);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2b1e2f; /* Dark purple background color for the track */
+    border-radius: 10px; /* More rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #452957; /* Darker purple color for the thumb */
+    border-radius: 10px;       /* More rounded corners */
+    border: 3px solid #2b1e2f; /* Border color matching the track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #7a528f !important; /* Lighter purple color when hovering */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #452957 #2b1e2f;
+  }
+  
+  /* For Internet Explorer and Edge */
+  body {
+    -ms-overflow-style: scrollbar; /* Shows scrollbar for IE and Edge */
+  }
+
+  ::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+  
+  /* Optional: Adding a custom scrollbar style for other elements */
+  .your-element {
+    scrollbar-width: thin;
+    scrollbar-color: #452957 #2b1e2f;
+  }  
