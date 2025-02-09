@@ -1,0 +1,15 @@
+{
+    "albums": [
+      {
+        "folder": "lana",
+        "title": "Lana Del Rey",
+        "description": "Lana's best songs"
+      },
+      {
+        "folder": "weeknd",
+        "title": "The Weeknd",
+        "description": "Top tracks from The Weeknd"
+  }
+  ]
+  }
+  
