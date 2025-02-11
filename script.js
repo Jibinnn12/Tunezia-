@@ -31,7 +31,7 @@ function convertSecondsToMinutes(seconds) {
 async function getSongs(folder){  
     currFolder=folder;
 
-    let a = await fetch(`http://127.0.0.1:5500/${folder}/`)  
+    let a = await fetch(`/songs/${folder}/`)  
     let response = await a.text();
     
     let div = document.createElement("div")
@@ -50,7 +50,7 @@ async function getSongs(folder){
     }
     
     // Fetch the album's metadata from info.json
-    let albumInfo = await fetch(`http://127.0.0.1:5500/${folder}/info.json`);
+    let albumInfo = await fetch(`/songs/${folder}/info.json`);
     let albumData = await albumInfo.json();
 
     let albumName = document.querySelector(".songlist").getElementsByTagName("h4")[0];
